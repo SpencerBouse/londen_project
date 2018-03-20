@@ -24,5 +24,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss'>
-  @import '../../src/assets/css/now-ui-kit.css';
+  @import '../../src/assets/sass/now-ui-kit.scss';
 </style>

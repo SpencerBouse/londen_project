@@ -1,6 +1,14 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <p>Hewwo</p>
+        </div>
+      </div>
+    </div>
+    <!-- <h1>{{ msg }}</h1>
+
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -79,7 +87,7 @@
           awesome-vue
         </a>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
@@ -96,7 +104,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+/* h1, h2 {
   font-weight: normal;
 }
 ul {
@@ -109,5 +117,5 @@ li {
 }
 a {
   color: #42b983;
-}
+} */
 </style>

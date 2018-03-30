@@ -1,0 +1,62 @@
+*,#app{
+  margin: 0;
+  color: white;
+}
+body{
+  background: $darkpurple-bg;
+}
+//cover
+.fullCover{
+  background: linear-gradient($purple-bg, $darkpurple-bg);
+}
+.cover{
+  height: 100vh;
+  float: right;
+}
+
+//navigation bar
+.nav-bar{
+  position: fixed;
+  left: 0px;
+  font-size: 1.5em;
+  padding: 15px;
+  z-index: 999;
+  li{
+    display: inline;
+    padding-right: 10px;
+  }
+  li:hover{
+    text-decoration: underline;
+  }
+}
+
+//About
+.abouttext{
+  text-align: left;
+}
+
+//Gallery
+.galleryPic{
+  margin-bottom: 10px;
+}
+.modal{
+  display: block;
+  width: 50%;
+  margin: auto;
+  h1{
+    color: black;
+  }
+  div{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+    right: 5px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  }
+}

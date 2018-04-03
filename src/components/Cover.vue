@@ -1,12 +1,19 @@
 <template>
   <div class='fullCover'>
-    <img class="cover" src='/static/img/Londen4.jpg'>
+      <div class='row'>
+        <img class="cover" src='/static/img/Londen4.jpg'>
+      </div>
   </div>
 </template>
 
 <script>
+import MainContent from './MainContent.vue'
+
 export default {
-  name: 'Cover'
+  name: 'Cover',
+  components: {
+    'mainContent': MainContent
+  }
 }
 </script>
 

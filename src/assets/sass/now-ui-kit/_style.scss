@@ -39,6 +39,8 @@ body{
 .galleryPic{
   margin-bottom: 10px;
 }
+
+//Modal
 .modal{
   display: block;
   width: 50%;
@@ -47,16 +49,24 @@ body{
     color: black;
   }
   div{
-    color: white;
     position: absolute;
     font-weight: bold;
     font-size: 1.5em;
     cursor: pointer;
     right: 5px;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+  }
+}
+path{
+  fill: #eee !important;
+}
+
+//MyFooter
+.iconContainer{
+  margin-top: 50px;
+  list-style-type: none;
+  .icon{
+    svg{
+      font-size: 3em;
+    }
   }
 }

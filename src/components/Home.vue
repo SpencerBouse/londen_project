@@ -7,7 +7,9 @@
       <div class='row'>
         <mainContent class='col-md-12'></mainContent>
       </div>
-      <myfooter></myfooter>
+      <div class='row'>
+        <myfooter class='col-md-6 offset-md-3'></myfooter>
+    </div>
   </div>
 </template>
 

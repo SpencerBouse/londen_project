@@ -254,3 +254,15 @@ $social-google-state-color:        darken(#dd4b39, 5%) !default;
 
 $social-linkedin: 			         #0077B5 !default;
 $social-linkedin-state-color:        darken(#0077B5, 5%) !default;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

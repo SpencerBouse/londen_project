@@ -1,11 +1,12 @@
 <template>
   <div class='container-fluid'>
-      <navigation></navigation>
-      <cover class='col-md-12 animated fadeIn'></cover>
-      <aboutContent></aboutContent>
-      <musicContent></musicContent>
-      <galleryContent></galleryContent>
-      <liveContent></liveContent>
+    <navigation></navigation>
+      <div class='row'>
+        <cover class='col-md-12'></cover>
+      </div>
+      <div class='row'>
+        <mainContent class='col-md-12'></mainContent>
+      </div>
       <myfooter></myfooter>
   </div>
 </template>
@@ -13,21 +14,15 @@
 <script>
 import Cover from './Cover.vue'
 import Navigation from './Navigation.vue'
+import MainContent from './MainContent.vue'
 import MyFooter from './MyFooter.vue'
-import AboutContent from './AboutContent.vue'
-import MusicContent from './MusicContent.vue'
-import GalleryContent from './GalleryContent.vue'
-import LiveContent from './LiveContent.vue'
 
 export default {
   name: 'Home',
   components: {
     'cover': Cover,
     'navigation': Navigation,
-    'aboutContent': AboutContent,
-    'musicContent': MusicContent,
-    'galleryContent': GalleryContent,
-    'liveContent': LiveContent,
+    'mainContent': MainContent,
     'myfooter': MyFooter
   }
 }

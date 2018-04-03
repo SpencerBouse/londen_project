@@ -1,10 +1,10 @@
 <template>
   <div>
     <ul class='nav-bar'>
-      <li class='underline' v-on:click="change('About')">About</li>
-      <li class='underline' v-on:click="change('Music')">Music</li>
-      <li class='underline' v-on:click="change('Gallery')">Gallery</li>
-      <li class='underline' v-on:click="change('Live')">Live</li>
+      <li v-on:click="change('About')">About</li>
+      <li v-on:click="change('Music')">Music</li>
+      <li v-on:click="change('Gallery')">Gallery</li>
+      <li v-on:click="change('Live')">Live</li>
     </ul>
   </div>
 </template>

@@ -51,15 +51,15 @@ export default {
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
   
-  
   .about-section{
+    padding: 1em;
     background: white;
     color: black;
     .headers {
-      text-align: right;
+      text-align: center;
     }
     .abouttext{
-      margin-right: 20em;
+      margin-right: 0;
     }
     h1{
       color: purple;
@@ -73,5 +73,20 @@ export default {
     p{
       color: black;
     }
+    @media (min-width: $screen-sm-min) { 
+      .headers {
+        text-align: right;
+      }
+      .abouttext{
+        margin-right: 20%;
+      }
+    }
+    @media (min-width: $screen-md-min) { 
+      
+    }
+    @media (min-width: $screen-lg-min) { 
+
+    }
+
   }
 </style>

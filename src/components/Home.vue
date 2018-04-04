@@ -1,6 +1,5 @@
 <template>
   <div class='container-fluid'>
-<<<<<<< HEAD
     <navigation></navigation>
       <div class='row'>
         <cover class='col-md-12'></cover>
@@ -11,15 +10,6 @@
       <div class='row'>
         <myfooter class='col-md-6 offset-md-3'></myfooter>
     </div>
-=======
-      <navigation></navigation>
-      <cover class='col-md-12 animated fadeIn'></cover>
-      <aboutContent></aboutContent>
-      <musicContent></musicContent>
-      <galleryContent></galleryContent>
-      <liveContent></liveContent>
-      <myfooter></myfooter>
->>>>>>> c5ca2fd7793e943126a5becfc9da78e934dd8f7c
   </div>
 </template>
 

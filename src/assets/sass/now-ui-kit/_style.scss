@@ -8,6 +8,9 @@ body{
 //cover
 .fullCover{
   background: linear-gradient($purple-bg, $darkpurple-bg);
+  div{
+    float: right;
+  }
 }
 .cover{
   height: 100vh;
@@ -72,7 +75,7 @@ body{
 }
 .padding-top{
   padding-top: 10em;
-} 
+}
 //Gallery
 .galleryPic{
   margin-bottom: 10px;

@@ -5,17 +5,7 @@
 body{
   background: $darkpurple-bg;
 }
-//cover
-.fullCover{
-  background: linear-gradient($purple-bg, $darkpurple-bg);
-  div{
-    float: right;
-  }
-}
-.cover{
-  height: 100vh;
-  float: right;
-}
+
 
 //navigation bar
 .nav-bar{

@@ -70,8 +70,4 @@ export default {
 
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
-
-  .iconContainer{
-    text-align: center;
-  }
 </style>

@@ -39,8 +39,8 @@
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
-import faSnapchatsquare from '@fortawesome/fontawesome-free-brands/faSnapchatsquare'
-import faTwittersquare from '@fortawesome/fontawesome-free-brands/faTwittersquare'
+import faSnapchatsquare from '@fortawesome/fontawesome-free-brands/faSnapchat'
+import faTwittersquare from '@fortawesome/fontawesome-free-brands/faTwitter'
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 
 export default {
@@ -70,4 +70,8 @@ export default {
 
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
+
+  .iconContainer{
+    text-align: center;
+  }
 </style>

@@ -4,12 +4,11 @@
       <div class='row'>
         <cover class='col-md-12'></cover>
       </div>
-      <div class='row'>
-        <mainContent class='col-md-12'></mainContent>
-      </div>
-      <div class='row'>
-        <myfooter class='col-md-6 offset-md-3'></myfooter>
-    </div>
+      <aboutContent></aboutContent>
+      <musicContent></musicContent>
+      <galleryContent></galleryContent>
+      <liveContent></liveContent>
+      <myfooter></myfooter>
   </div>
 </template>
 

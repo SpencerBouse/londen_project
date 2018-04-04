@@ -37,7 +37,10 @@
         music industry, hoping to contribute legendary pieces of work that will change the landscape of music
         and blend audiences of multiple types, celebrating diversity, originality, and collaboration.
       </p>
+      </div>
     </div>
+
+
   </div>
 </template>
 
@@ -49,4 +52,43 @@ export default {
 
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
+
+  .about-section{
+    padding: 1em;
+    background: white;
+    color: black;
+    .headers {
+      text-align: center;
+    }
+    .abouttext{
+      margin-right: 0;
+    }
+    h1{
+      color: purple;
+      margin: 0;
+      font-weight: 800;
+    }
+    h3{
+      color: black;
+      margin: 0;
+    }
+    p{
+      color: black;
+    }
+    @media (min-width: $screen-sm-min) {
+      .headers {
+        text-align: right;
+      }
+      .abouttext{
+        margin-right: 20%;
+      }
+    }
+    @media (min-width: $screen-md-min) {
+
+    }
+    @media (min-width: $screen-lg-min) {
+
+    }
+
+  }
 </style>

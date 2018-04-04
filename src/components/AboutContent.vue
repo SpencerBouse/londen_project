@@ -79,16 +79,16 @@ export default {
       color: black;
     }
     @media (min-width: $screen-sm-min) {
-      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%,rgba(255, 255, 255, 0.6) 100%), url('/static/img/Londen.jpg');
+
+    }
+    @media (min-width: $screen-md-min) {
       .headers {
         text-align: right;
       }
       .abouttext{
         margin-right: 20%;
       }
-    }
-    @media (min-width: $screen-md-min) {
-
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%,rgba(255, 255, 255, 0.6) 100%), url('/static/img/Londen.jpg');
     }
     @media (min-width: $screen-lg-min) {
 

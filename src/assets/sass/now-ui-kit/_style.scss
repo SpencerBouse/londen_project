@@ -9,7 +9,7 @@ body{
 .fullCover{
   background: linear-gradient($purple-bg, $darkpurple-bg);
   div{
-    float: right;
+    float:right;
   }
 }
 .cover{
@@ -103,7 +103,9 @@ path{
 
 //MyFooter
 .iconContainer{
+  padding: 0;
   margin-top: 50px;
+  margin-bottom: 50px;
   list-style-type: none;
   .icon{
     svg{

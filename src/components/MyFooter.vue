@@ -1,31 +1,31 @@
 <template>
   <div>
     <ul class='iconContainer row'>
-      <li class='icon col-md-2'>
+      <li class='icon col-2 offset-1'>
         <a href='https://www.facebook.com/ChrisLonden3AM/'>
           <font-awesome-icon :icon="facebook"/>
           <p>Facebook</p>
         </a>
       </li>
-      <li class='icon col-md-2'>
+      <li class='icon col-2'>
         <a href='https://www.instagram.com/chrislondenmusic/'>
           <font-awesome-icon :icon="instagram"/>
           <p>Instagram</p>
         </a>
       </li>
-      <li class='icon col-md-2'>
+      <li class='icon col-2'>
         <a href='https://twitter.com/CLondenMusic'>
           <font-awesome-icon :icon="twitter"/>
           <p>Twitter</p>
         </a>
       </li>
-      <li class='icon col-md-2'>
+      <li class='icon col-2'>
         <a>
           <font-awesome-icon :icon="snapchat"/>
           <p>Snapchat</p>
         </a>
       </li>
-      <li class='icon col-md-2'>
+      <li class='icon col-2'>
         <a>
           <font-awesome-icon :icon="youtube"/>
           <p>Youtube</p>
@@ -39,8 +39,8 @@
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
-import faSnapchatsquare from '@fortawesome/fontawesome-free-brands/faSnapchat'
-import faTwittersquare from '@fortawesome/fontawesome-free-brands/faTwitter'
+import faSnapchatsquare from '@fortawesome/fontawesome-free-brands/faSnapchatsquare'
+import faTwittersquare from '@fortawesome/fontawesome-free-brands/faTwittersquare'
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 
 export default {
@@ -70,8 +70,4 @@ export default {
 
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
-
-  .iconContainer{
-    text-align: center;
-  }
 </style>

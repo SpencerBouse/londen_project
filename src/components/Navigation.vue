@@ -4,7 +4,6 @@
       <li class='underline' v-on:click="change('About')">About</li>
       <li class='underline' v-on:click="change('Music')">Music</li>
       <li class='underline' v-on:click="change('Gallery')">Gallery</li>
-      <li class='underline' v-on:click="change('Live')">Live</li>
     </ul>
   </div>
 </template>
@@ -29,4 +28,18 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
+
+  .nav-bar{
+    position: absolute;
+    left: 0px;
+    font-size: 1.5em;
+    padding: 15px;
+    z-index: 999;
+    li{
+      text-align: center;
+      cursor: pointer;
+      display: inline;
+      padding-right: 10px;
+    }
+  }
 </style>

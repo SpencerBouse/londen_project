@@ -1,7 +1,7 @@
 <template>
   <div class='fullCover'>
       <div class='row'>
-        <img class="cover" src='/static/img/Londen4.jpg'>
+        <img class="cover" src='/static/img/ChrisCover.png'>
       </div>
   </div>
 </template>

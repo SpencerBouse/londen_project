@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='gallery-container'>
     <h1>Gallery</h1>
     <img class='col-md-3 galleryPic' src='/static/img/Londen4.jpg' @click="openModal('/static/img/Londen4.jpg')">
     <img class='col-md-3 galleryPic' src='/static/img/Londen3.jpg' @click="openModal('/static/img/Londen3.jpg')">
@@ -46,4 +46,8 @@ export default {
 
 <style lang='scss'>
   @import '../../src/assets/sass/now-ui-kit.scss';
+
+  .gallery-container{
+    margin-top: 50px
+  }
 </style>

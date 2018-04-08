@@ -8,20 +8,6 @@ body{
 
 
 //navigation bar
-.nav-bar{
-  position: fixed;
-  left: 0px;
-  font-size: 1.5em;
-  padding: 15px;
-  z-index: 999;
-  li{
-    text-align: center;
-    cursor: pointer;
-    display: inline;
-    padding-right: 10px;
-  }
-}
-
 .underline {
   display: inline;
   position: relative;

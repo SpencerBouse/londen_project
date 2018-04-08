@@ -2,12 +2,12 @@
   <div class='container-fluid'>
     <navigation></navigation>
       <div class='row'>
-        <cover class='col-md-12'></cover>
+        <liveContent class='col-md-3'></liveContent>
+        <cover class='col-md-9'></cover>
       </div>
       <aboutContent></aboutContent>
-      <musicContent></musicContent>
       <galleryContent></galleryContent>
-      <liveContent></liveContent>
+      <!-- <musicContent></musicContent> -->
       <myfooter></myfooter>
   </div>
 </template>
